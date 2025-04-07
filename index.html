@@ -1,0 +1,868 @@
+<html class="w-mod-js w-mod-ix wf-inter-n4-active wf-inter-n6-active wf-inter-n3-active wf-inter-n7-active wf-inter-n5-active wf-active" data-wf-domain="banyo-product-sales-page.webflow.io" data-wf-page="633a8bdf6320c8b7248f7722" data-wf-site="633a8bdf6320c892ed8f771e">
+ <head>
+  <style>
+   .wf-force-outline-none[tabindex="-1"]:focus{outline:none;}
+  </style>
+  <meta charset="utf-8"/>
+  <title>
+    Tripoli Soap Product Sales Page
+  </title>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="Webflow" name="generator"/>
+  <link href="./css/banyo.css" rel="stylesheet" type="text/css"/>
+  <link href="./css/style.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript">
+  </script>
+  <link href="https://fonts.googleapis.com/css?family=Inter:300,regular,500,600,700&amp;subset=latin,latin-ext" media="all" rel="stylesheet"/>
+  <script type="text/javascript">
+   WebFont.load({  google: {    families: ["Inter:300,regular,500,600,700:latin,latin-ext"]  }});
+  </script>
+  <script type="text/javascript">
+   !function(o,c){var n=c.documentElement,t=" w-mod-";n.className+=t+"js",("ontouchstart"in o||o.DocumentTouch&&c instanceof DocumentTouch)&&(n.className+=t+"touch")}(window,document);
+  </script>
+  <link href="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633a8e39dcea69b2be31613d_63346aa402a433938a38c891_default_favicon.1d66085a39.png" rel="shortcut icon" type="image/x-icon"/>
+  <link href="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633a8e3e1867534c21e912a3_63346b19fe7ed38e64e2e5e8_62e3b32df6235f7973c8d9e6_Webclip.png" rel="apple-touch-icon"/>
+  <!-- Please keep this css code to improve the font quality-->
+  <style>
+   * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+  </style>
+  <!-- You can remove this -->
+  <meta content="mlk59ybu44651lzcbhhxjfl8vfae8q" name="facebook-domain-verification"/>
+ </head>
+ <body>
+  <div class="page-wrapper">
+   <div class="global-styles w-embed">
+    <style>
+     /* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* 
+Make the following elements inherit typography styles from the parent and not have hardcoded values. 
+Important: You will not be able to style for example "All Links" in Designer with this CSS applied.
+Uncomment this CSS to use it in the project. Leave this message for future hand-off.
+*/
+/*
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+*/
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Snippet enables you to add class of div-square which creates and maintains a 1:1 dimension of a div.*/
+.div-square::after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+/*Hide focus outline for main content element*/
+    main:focus-visible {
+    outline: -webkit-focus-ring-color auto 0px;
+}
+
+/* Make sure containers never lose their center alignment*/
+.container-medium, .container-small, .container-large {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+/*Reset selects, buttons, and links styles*/
+.w-input, .w-select, a {
+color: inherit;
+text-decoration: inherit;
+font-size: inherit;
+}
+
+/*Apply "..." after 3 lines of text */
+.text-style-3lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;  // IE 10+
+    overflow: -moz-scrollbars-none;  // Firefox
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none; // Safari and Chrome
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px), 
+  @media screen and (max-width: 767px), 
+  @media screen and (max-width: 479px){
+    .hide, .hide-tablet{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 767px)
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+  }
+  @media screen and (max-width: 479px)
+    .hide-mobile{
+      display: none !important;
+    }
+  }
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+    </style>
+   </div>
+   <main class="main-wrapper">
+    <div class="navbar_component shadow-xxsmall w-nav" data-animation="default" data-collapse="medium" data-duration="400" data-easing="ease" data-easing2="ease" data-w-id="5feb8d78-5cff-4648-565c-93df3981cd91" fs-scrolldisable-element="smart-nav" role="banner">
+     <div class="navbar_container">
+      <a class="navbar_logo-link w-nav-brand" href="#">
+       <img alt="logo" class="navbar2_logo" loading="lazy" src="" width="109"/>
+      </a>
+      <nav class="navbar_menu is-page-height-tablet w-nav-menu" id="w-node-_5feb8d78-5cff-4648-565c-93df3981cd95-248f7722" role="navigation">
+       <a class="navbar_link link w-nav-link" href="#Why-US">
+        Why Tripoli Soap?
+       </a>
+       <a class="navbar_link link w-nav-link" href="#ourus">
+        Our Us
+       </a>
+       <a class="navbar_link link w-nav-link" href="#shop">
+        Shop
+       </a>
+       <a class="navbar_link link w-nav-link w--current" href="#gallery">
+        Gallery
+       </a>
+       <a class="navbar_link link w-nav-link" href="#reviews">
+        Reviews
+       </a>
+      </nav>
+      <div class="navbar_button-wrapper" id="w-node-_5feb8d78-5cff-4648-565c-93df3981cda8-248f7722">
+       <div class="social-icons_component">
+        <div class="w-layout-grid social-icons1_list">
+         <a class="social-icons1_link w-inline-block" href="http://www.sinancelik.co" target="_blank">
+          <div class="social-icon w-embed">
+           <svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.5 6H13.5C12.9477 6 12.5 6.44772 12.5 7V10H16.5C16.6137 9.99748 16.7216 10.0504 16.7892 10.1419C16.8568 10.2334 16.8758 10.352 16.84 10.46L16.1 12.66C16.0318 12.8619 15.8431 12.9984 15.63 13H12.5V20.5C12.5 20.7761 12.2761 21 12 21H9.5C9.22386 21 9 20.7761 9 20.5V13H7.5C7.22386 13 7 12.7761 7 12.5V10.5C7 10.2239 7.22386 10 7.5 10H9V7C9 4.79086 10.7909 3 13 3H16.5C16.7761 3 17 3.22386 17 3.5V5.5C17 5.77614 16.7761 6 16.5 6Z" fill="CurrentColor">
+            </path>
+           </svg>
+          </div>
+         </a>
+         <a class="social-icons1_link w-inline-block" href="http://sinancelik.co" target="_blank">
+          <div class="social-icon w-embed">
+           <svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z" fill="CurrentColor" fill-rule="evenodd">
+            </path>
+           </svg>
+          </div>
+         </a>
+         <a class="social-icons1_link w-inline-block" href="http://sinancelik.co">
+          <div class="social-icon w-embed">
+           <svg fill="none" height="currentHeight" viewbox="0 0 24 24" width="currentWidth" xmlns="http://www.w3.org/2000/svg">
+            <path clip-rule="evenodd" d="M18.5399 4.33992L19.9999 4.48992C21.7284 4.68529 23.0264 6.16064 22.9999 7.89992V16.0999C23.0264 17.8392 21.7284 19.3146 19.9999 19.5099L18.5999 19.6599C14.2315 20.1099 9.82835 20.1099 5.45991 19.6599L3.99991 19.5099C2.27143 19.3146 0.973464 17.8392 0.999909 16.0999V7.89992C0.973464 6.16064 2.27143 4.68529 3.99991 4.48992L5.39991 4.33992C9.76835 3.88995 14.1715 3.88995 18.5399 4.33992ZM11.1099 15.2199L14.9999 12.6199H15.0599C15.2695 12.4833 15.3959 12.2501 15.3959 11.9999C15.3959 11.7497 15.2695 11.5165 15.0599 11.3799L11.1699 8.77992C10.9402 8.62469 10.6437 8.60879 10.3987 8.73859C10.1538 8.86839 10.0004 9.12271 9.99991 9.39992V14.5999C10.0128 14.858 10.1576 15.0913 10.3832 15.2173C10.6088 15.3433 10.8834 15.3443 11.1099 15.2199Z" fill="currentColor" fill-rule="evenodd">
+            </path>
+           </svg>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div aria-controls="w-nav-overlay-0" aria-expanded="false" aria-haspopup="menu" aria-label="menu" class="navbar_menu-button w-nav-button" role="button" style="-webkit-user-select: text;" tabindex="0">
+        <div class="menu-icon">
+         <div class="menu-icon_line-top">
+         </div>
+         <div class="menu-icon_line-middle">
+          <div class="menu-icon_line-middle-inner">
+          </div>
+         </div>
+         <div class="menu-icon_line-bottom">
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0">
+     </div>
+    </div>
+    <header class="section_header" id="header">
+     <div class="w-layout-grid header_component">
+      <div class="header_content" id="w-node-_35fe5796-5da5-e6ef-d186-398f48ef0704-248f7722">
+       <div class="margin-bottom margin-small">
+        <h1 class="heading" data-w-id="35fe5796-5da5-e6ef-d186-398f48ef0706" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+         Natural Soaps. Newly DEFINED.
+        </h1>
+       </div>
+       <p class="paragraph" data-w-id="35fe5796-5da5-e6ef-d186-398f48ef0708" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.
+       </p>
+       <div class="margin-top margin-medium">
+        <div class="button-group">
+         <a class="button w-button" data-w-id="35fe5796-5da5-e6ef-d186-398f48ef070c" href="#" style="opacity: 1;">
+          Shop Now
+         </a>
+        </div>
+       </div>
+      </div>
+      <div class="header_image-wrapper">
+       <img alt="add descripton" class="header_image" data-w-id="35fe5796-5da5-e6ef-d186-398f48ef0711" loading="lazy" sizes="(max-width: 991px) 100vw, 50vw" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image-p-800.png 800w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image.png 1000w" style="opacity: 1; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg); transform-style: preserve-3d;"/>
+      </div>
+     </div>
+    </header>
+    <section class="why-banyo" id="Why-Banyo">
+     <div class="padding-global">
+      <div class="container-large">
+       <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+         <div class="max-width-large">
+          <div class="margin-bottom margin-small">
+           <h2 class="heading-2">
+            Why Tripoli Soap?
+           </h2>
+          </div>
+          <p class="paragraph">
+           Because what absorbs into our skin is important.
+          </p>
+         </div>
+        </div>
+        <div class="w-layout-grid layout_component">
+         <div class="layout_item" data-w-id="1043c6a3-30ae-98ef-5573-205919c85ca2" style="opacity: 0;">
+          <div class="margin-bottom margin-medium">
+           <div class="layout_image-wrapper">
+            <img alt="add descripton" class="shadow-medium" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633ab1f6413e41250d0a07cf_Image.png"/>
+           </div>
+          </div>
+         </div>
+         <div class="layout_item background-color-gray shadow-medium" data-w-id="1043c6a3-30ae-98ef-5573-205919c85cb1" style="opacity: 0;">
+          <div class="margin-bottom margin-xsmall">
+           <h3 class="heading-3">
+            Cleansing
+           </h3>
+          </div>
+          <p class="paragraph text-align-left">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
+          </p>
+         </div>
+         <div class="layout_item" data-w-id="1043c6a3-30ae-98ef-5573-205919c85cc0" style="opacity: 0;">
+          <div class="margin-bottom margin-medium">
+           <div class="layout_image-wrapper">
+            <img alt="add descripton" class="shadow-medium" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633ab1ec0d3a8f54ab18dba8_Image.png"/>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="w-layout-grid layout_component">
+         <div class="layout_item background-color-gray shadow-medium" data-w-id="03f9417e-4535-735e-a062-988054652595" style="opacity: 0;">
+          <div class="margin-bottom margin-xsmall">
+           <h3 class="heading-3">
+            Moisturizing
+           </h3>
+          </div>
+          <p class="paragraph text-align-left">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
+          </p>
+         </div>
+         <div class="layout_item" data-w-id="03f9417e-4535-735e-a062-988054652591" style="opacity: 0;">
+          <div class="margin-bottom margin-medium">
+           <div class="layout_image-wrapper">
+            <img alt="add descripton" class="shadow-medium" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633ab5a73528b0dabf78a7db_Image.png"/>
+           </div>
+          </div>
+         </div>
+         <div class="layout_item background-color-gray shadow-medium" data-w-id="29c4493b-cbf4-09a5-6e4a-6721b5e8b479" style="opacity: 0;">
+          <div class="margin-bottom margin-xsmall">
+           <h3 class="heading-3">
+            Beneficial
+           </h3>
+          </div>
+          <p class="paragraph text-align-left">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla.
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="section_our-us" data-w-id="1bb26e7f-b757-08bc-be9d-51cb8eacea6b" id="ourus" style="opacity: 0;">
+     <div class="padding-global">
+      <div class="container-large">
+       <div class="padding-section-large">
+        <div class="w-layout-grid layout192_component">
+         <div class="layout192_image-wrapper">
+          <img alt="add descripton" class="shadow-medium" loading="lazy" sizes="100vw" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b01373d39f16c012f9a94_Image.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b01373d39f16c012f9a94_Image-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b01373d39f16c012f9a94_Image.png 616w"/>
+         </div>
+         <div class="layout192_content" id="w-node-_1bb26e7f-b757-08bc-be9d-51cb8eacea72-248f7722">
+          <div class="margin-bottom margin-small">
+           <h2 class="heading-2">
+            Best Soapon the plattnet.
+           </h2>
+          </div>
+          <p class="paragraph">
+           Frustrated by commercial soaps lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.We're on a mission to create handmade products that are free of harsh ingredients and full of nourishing plant based goodness.
+           <br/>
+           <br/>
+           Duis cursus, mi quis viverra ornare, eros dolor interdum nulla, ut commodo diam libero vitae erat.We're on a mission to create handmade products that are free of harsh ingredients and full of nourishing plant based goodness.
+           <br/>
+           <br/>
+           We're on a mission to create handmade products that are free of harsh ingredients and full of nourishing plant based goodness.
+          </p>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="shop" id="shop">
+     <div class="padding-global">
+      <div class="container-large">
+       <div class="padding-section-large">
+        <div class="product_component">
+         <div class="margin-bottom margin-xxlarge">
+          <div class="product_heading-wrapper">
+           <div class="product_heading">
+            <div class="max-width-large">
+             <div class="margin-bottom margin-xsmall">
+              <h2 class="heading-2" data-w-id="434aabd8-68ab-be21-437a-125027f77c42" style="opacity: 0;">
+               Order Deals
+              </h2>
+             </div>
+             <p class="paragraph" data-w-id="434aabd8-68ab-be21-437a-125027f77c44" style="opacity: 0;">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="product_list-wrapper">
+          <div class="w-layout-grid product_list">
+           <div class="product_item" data-w-id="434aabd8-68ab-be21-437a-125027f77c4b" style="opacity: 0;">
+            <div class="margin-bottom margin-xsmall">
+             <a class="product8_image-link w-inline-block" href="#">
+              <div class="product8_image-wrapper">
+               <img alt="add descripton" class="product8_image" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, (max-width: 1919px) 27vw, 394.65625px" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462080113858a777f27_product1.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462080113858a777f27_product1-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462080113858a777f27_product1-p-800.png 800w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462080113858a777f27_product1.png 1000w"/>
+              </div>
+             </a>
+            </div>
+            <div class="margin-bottom margin-xsmall">
+             <a class="product8_text-link w-inline-block" href="#">
+              <div class="product8_left">
+               <div class="text-size-medium text-weight-semibold">
+                ALEPPO
+               </div>
+               <div class="text-size-small">
+                The bright scent of wild apples, peaches, citrus, and violets with undertones of musk. Duis cursus, mi quis viverra ornare.
+               </div>
+              </div>
+              <div class="text-size-large text-weight-semibold">
+               $14,99
+              </div>
+             </a>
+            </div>
+            <div class="margin-top-auto">
+             <a class="button-2 is-secondary is-small max-width-full w-button" href="#">
+              BUY IT NOW
+             </a>
+            </div>
+           </div>
+           <div class="product_item" data-w-id="434aabd8-68ab-be21-437a-125027f77c5c" style="opacity: 0;">
+            <div class="margin-bottom margin-xsmall">
+             <a class="product8_image-link w-inline-block" href="#">
+              <div class="product8_image-wrapper">
+               <img alt="add descripton" class="product8_image" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, (max-width: 1919px) 27vw, 394.671875px" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462307627d5145979ef_product2.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462307627d5145979ef_product2-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462307627d5145979ef_product2-p-800.png 800w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b0462307627d5145979ef_product2.png 1000w"/>
+              </div>
+             </a>
+            </div>
+            <div class="margin-bottom margin-xsmall">
+             <a class="product8_text-link w-inline-block" href="#">
+              <div class="product8_left">
+               <div class="text-size-medium text-weight-semibold">
+                KOLLAGEN
+               </div>
+               <div class="text-size-small">
+                Use a soap dish to improve the life of your handmade soap. Duis cursus, mi quis viverra ornare, eros dolor interdum nulla
+               </div>
+              </div>
+              <div class="text-size-large text-weight-semibold">
+               $9,99
+              </div>
+             </a>
+            </div>
+            <div class="margin-top-auto">
+             <a class="button-2 is-secondary is-small max-width-full w-button" href="#">
+              BUY IT NOW
+             </a>
+            </div>
+           </div>
+           <div class="product_item" data-w-id="434aabd8-68ab-be21-437a-125027f77c6d" style="opacity: 0;">
+            <div class="margin-bottom margin-xsmall">
+             <a class="product8_image-link w-inline-block" href="#">
+              <div class="product8_image-wrapper">
+               <img alt="add descripton" class="product8_image" loading="lazy" sizes="(max-width: 767px) 90vw, (max-width: 991px) 43vw, (max-width: 1919px) 27vw, 394.671875px" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3-p-800.png 800w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3.png 1000w"/>
+              </div>
+             </a>
+            </div>
+            <div class="margin-bottom margin-xsmall">
+             <a class="product8_text-link w-inline-block" href="#">
+              <div class="product8_left">
+               <div class="text-size-medium text-weight-semibold">
+                LAVENDEL
+               </div>
+               <div class="text-size-small">
+                A wonderfully herbaceous blend of lavender, zest, rosemary, and eucalyptus, with warming notes of clove, ginger, and patchouli.
+               </div>
+              </div>
+              <div class="text-size-large text-weight-semibold">
+               $16,99
+              </div>
+             </a>
+            </div>
+            <div class="margin-top-auto">
+             <a class="button-2 is-secondary is-small max-width-full w-button" href="#">
+              BUY IT NOW
+             </a>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="reviews" id="reviews">
+     <div class="padding-global">
+      <div class="container-large">
+       <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+         <div class="max-width-large">
+          <div class="margin-bottom margin-small">
+           <h2 class="heading-2">
+            From the people
+           </h2>
+          </div>
+          <p class="paragraph">
+           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          </p>
+         </div>
+        </div>
+        <div class="testimonial_component-copy">
+         <div class="testimonial22_content">
+          <div>
+           <div class="margin-bottom margin-small">
+            <div class="paragraph">
+             "My skin is somewhat sensitive, and after using harsh chemicals to clean my bathroom, my hands always feel dry, irritated and smelly! Using the coastal lily soap is the best way to remove the chemical odor and clean and moisturize my skin"
+            </div>
+           </div>
+           <div class="testimonial22_client">
+            <div class="testimonial22_client-info">
+             <p class="text-weight-semibold">
+              <em class="text-size-medium">
+               Abby H.
+              </em>
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="testimonial22_content">
+          <div>
+           <div class="margin-bottom margin-small">
+            <div class="paragraph">
+             "I have been using Pleasant View Soaps' Rosemary Mint shampoo bar for over a month now. I have to say my hair, which is fine and curly, has never felt healthier. Even though we have hard water, the shampoo bar is still great...."
+            </div>
+           </div>
+           <div class="testimonial22_client">
+            <div class="testimonial22_client-info">
+             <p class="text-weight-semibold">
+              <em class="text-size-medium">
+               Kathleen G.
+              </em>
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div class="testimonial22_content">
+          <div>
+           <div class="margin-bottom margin-small">
+            <div class="paragraph">
+             "I have really enjoyed using your soaps! They not only smell so nice, but they feel wonderful on my skin. Plus they work great for washing my hair. Your chocolate orange lip butter was great too; chocolate and orange are a lovely combination."
+            </div>
+           </div>
+           <div class="testimonial22_client">
+            <div class="testimonial22_client-info">
+             <p class="text-weight-semibold">
+              <em class="text-size-medium">
+               Tammy C.
+              </em>
+             </p>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <section class="gallery" id="gallery">
+     <div class="padding-global">
+      <div class="container-large">
+       <div class="padding-section-large">
+        <div class="margin-bottom margin-xxlarge">
+         <div class="text-align-center-2">
+          <div class="max-width-large align-center">
+           <div class="margin-bottom margin-small">
+            <h2 class="heading-2">
+             Happy shoppers
+            </h2>
+           </div>
+           <p class="paragraph">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+           </p>
+          </div>
+         </div>
+        </div>
+        <div class="gallery19_component">
+         <div aria-label="carousel" class="gallery19_slider w-slider" data-animation="slide" data-autoplay="false" data-autoplay-limit="0" data-delay="4000" data-disable-swipe="false" data-duration="500" data-easing="ease" data-hide-arrows="false" data-infinite="false" data-nav-spacing="3" role="region">
+          <div class="gallery19_mask w-slider-mask" id="w-slider-mask-0">
+           <div aria-label="1 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#">
+             <div class="gallery19_image-wrapper">
+              <img alt="add descripton" class="gallery19_image" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633ab1ec0d3a8f54ab18dba8_Image.png"/>
+             </div>
+             <script class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="2 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633ab1f6413e41250d0a07cf_Image.png"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="3 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b49818a7958154cfda3c8_gallery.png"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="4 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b498c8a1bab1c783184a6_Image.png"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="5 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b49818a7958154cfda3c8_gallery.png"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="6 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" sizes="(max-width: 479px) 40vw, (max-width: 767px) 42vw, (max-width: 1919px) 19vw, 288px" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3-p-800.png 800w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b046135a0e4a6e6890d37_product3.png 1000w"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="7 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" sizes="(max-width: 479px) 40vw, (max-width: 767px) 42vw, (max-width: 1919px) 19vw, 288px" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b01373d39f16c012f9a94_Image.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b01373d39f16c012f9a94_Image-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633b01373d39f16c012f9a94_Image.png 616w"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-hidden="true" aria-label="8 of 8" class="gallery19_slide w-slide" role="group" style="transition: all; transform: translateX(0px); opacity: 1;">
+            <a aria-haspopup="dialog" aria-hidden="true" aria-label="open lightbox" class="gallery19_lightbox-link w-inline-block w-lightbox" href="#" tabindex="-1">
+             <div aria-hidden="true" class="gallery19_image-wrapper">
+              <img alt="add descripton" aria-hidden="true" class="gallery19_image" loading="lazy" sizes="(max-width: 479px) 40vw, (max-width: 767px) 42vw, (max-width: 1919px) 19vw, 288px" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image.png" srcset="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image-p-500.png 500w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image-p-800.png 800w, https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633aaa3fc6e89fc639b142fb_hero-image.png 1000w"/>
+             </div>
+             <script aria-hidden="true" class="w-json" type="application/json">
+              {
+  "items": [],
+  "group": ""
+}
+             </script>
+            </a>
+           </div>
+           <div aria-atomic="true" aria-live="off" class="w-slider-aria-label" data-wf-ignore="">
+           </div>
+          </div>
+          <div aria-controls="w-slider-mask-0" aria-label="previous slide" class="gallery_arrow hide-mobile-landscape w-slider-arrow-left" role="button" tabindex="0">
+           <img alt="add descripton" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633a8bdf6320c8236f8f7738_icon_slider-arrow-left.svg"/>
+          </div>
+          <div aria-controls="w-slider-mask-0" aria-label="next slide" class="gallery_arrow hide-mobile-landscape w-slider-arrow-right" role="button" tabindex="0">
+           <img alt="add descripton" loading="lazy" src="https://uploads-ssl.webflow.com/633a8bdf6320c892ed8f771e/633a8bdf6320c8b4238f7743_icon_slider-arrow-right.svg"/>
+          </div>
+          <div class="gallery_slide-nav w-slider-nav w-slider-nav-invert w-round">
+           <div aria-label="Show slide 1 of 8" aria-pressed="true" class="w-slider-dot w-active" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="0">
+           </div>
+           <div aria-label="Show slide 2 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+           <div aria-label="Show slide 3 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+           <div aria-label="Show slide 4 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+           <div aria-label="Show slide 5 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+           <div aria-label="Show slide 6 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+           <div aria-label="Show slide 7 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+           <div aria-label="Show slide 8 of 8" aria-pressed="false" class="w-slider-dot" data-wf-ignore="" role="button" style="margin-left: 3px; margin-right: 3px;" tabindex="-1">
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </section>
+    <div class="footer_component">
+     <div class="padding-global">
+      <div class="container-large">
+       <div class="padding-vertical padding-xxlarge">
+        <div class="padding-bottom padding-xxlarge">
+         <div class="w-layout-grid footer_top-wrapper">
+          <a class="footer_logo-link w-nav-brand" href="#" id="w-node-ea8d858c-3263-6b4b-16eb-3fbafa9beb0b-248f7722">
+           <img alt="logo" loading="lazy" src="" width="109"/>
+          </a>
+          <div class="w-layout-grid footer_link-list">
+           <a class="footer_link link" href="#Why-Us">
+            Why Tripoli Soap?
+           </a>
+           <a class="footer_link link" href="#ourus">
+            Our Us
+           </a>
+           <a class="footer_link link" href="#shop">
+            Shop
+           </a>
+           <a class="footer_link link" href="#reviews">
+            Reviews
+           </a>
+           <a class="footer_link link w--current" href="#gallery">
+            Gallery
+           </a>
+          </div>
+          <div class="w-layout-grid footer_social-list" id="w-node-ea8d858c-3263-6b4b-16eb-3fbafa9beb18-248f7722">
+           <a class="footer_social-link w-inline-block" href="http://sinancelik.co" target="_blank">
+            <div class="social-icon-2 w-embed">
+             <svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M16.5 6H13.5C12.9477 6 12.5 6.44772 12.5 7V10H16.5C16.6137 9.99748 16.7216 10.0504 16.7892 10.1419C16.8568 10.2334 16.8758 10.352 16.84 10.46L16.1 12.66C16.0318 12.8619 15.8431 12.9984 15.63 13H12.5V20.5C12.5 20.7761 12.2761 21 12 21H9.5C9.22386 21 9 20.7761 9 20.5V13H7.5C7.22386 13 7 12.7761 7 12.5V10.5C7 10.2239 7.22386 10 7.5 10H9V7C9 4.79086 10.7909 3 13 3H16.5C16.7761 3 17 3.22386 17 3.5V5.5C17 5.77614 16.7761 6 16.5 6Z" fill="CurrentColor">
+              </path>
+             </svg>
+            </div>
+           </a>
+           <a class="footer_social-link w-inline-block" href="http://sinancelik.co">
+            <div class="social-icon-2 w-embed">
+             <svg fill="none" height="24" viewbox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="M16 3H8C5.23858 3 3 5.23858 3 8V16C3 18.7614 5.23858 21 8 21H16C18.7614 21 21 18.7614 21 16V8C21 5.23858 18.7614 3 16 3ZM19.25 16C19.2445 17.7926 17.7926 19.2445 16 19.25H8C6.20735 19.2445 4.75549 17.7926 4.75 16V8C4.75549 6.20735 6.20735 4.75549 8 4.75H16C17.7926 4.75549 19.2445 6.20735 19.25 8V16ZM16.75 8.25C17.3023 8.25 17.75 7.80228 17.75 7.25C17.75 6.69772 17.3023 6.25 16.75 6.25C16.1977 6.25 15.75 6.69772 15.75 7.25C15.75 7.80228 16.1977 8.25 16.75 8.25ZM12 7.5C9.51472 7.5 7.5 9.51472 7.5 12C7.5 14.4853 9.51472 16.5 12 16.5C14.4853 16.5 16.5 14.4853 16.5 12C16.5027 10.8057 16.0294 9.65957 15.1849 8.81508C14.3404 7.97059 13.1943 7.49734 12 7.5ZM9.25 12C9.25 13.5188 10.4812 14.75 12 14.75C13.5188 14.75 14.75 13.5188 14.75 12C14.75 10.4812 13.5188 9.25 12 9.25C10.4812 9.25 9.25 10.4812 9.25 12Z" fill="CurrentColor" fill-rule="evenodd">
+              </path>
+             </svg>
+            </div>
+           </a>
+           <a class="footer_social-link w-inline-block" href="http://sinancelik.co" target="_blank">
+            <div class="social-icon-2 w-embed">
+             <svg fill="none" height="currentHeight" viewbox="0 0 24 24" width="currentWidth" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="M18.5399 4.33992L19.9999 4.48992C21.7284 4.68529 23.0264 6.16064 22.9999 7.89992V16.0999C23.0264 17.8392 21.7284 19.3146 19.9999 19.5099L18.5999 19.6599C14.2315 20.1099 9.82835 20.1099 5.45991 19.6599L3.99991 19.5099C2.27143 19.3146 0.973464 17.8392 0.999909 16.0999V7.89992C0.973464 6.16064 2.27143 4.68529 3.99991 4.48992L5.39991 4.33992C9.76835 3.88995 14.1715 3.88995 18.5399 4.33992ZM11.1099 15.2199L14.9999 12.6199H15.0599C15.2695 12.4833 15.3959 12.2501 15.3959 11.9999C15.3959 11.7497 15.2695 11.5165 15.0599 11.3799L11.1699 8.77992C10.9402 8.62469 10.6437 8.60879 10.3987 8.73859C10.1538 8.86839 10.0004 9.12271 9.99991 9.39992V14.5999C10.0128 14.858 10.1576 15.0913 10.3832 15.2173C10.6088 15.3433 10.8834 15.3443 11.1099 15.2199Z" fill="currentColor" fill-rule="evenodd">
+              </path>
+             </svg>
+            </div>
+           </a>
+          </div>
+         </div>
+        </div>
+        <div class="line-divider">
+        </div>
+        <div class="padding-top padding-medium">
+         <div class="w-layout-grid footer_bottom-wrapper">
+          <div class="footer_credit-text" id="w-node-ea8d858c-3263-6b4b-16eb-3fbafa9beb26-248f7722">
+           © 2022 Tripoli Soap. All right reserved.
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </main>
+  </div>
+  <script src="./js/jquery-3.5.1.js" type="text/javascript"></script>
+  <script src="./js/webflow927b26a9d.js" type="text/javascript">
+  </script>
+  <!--[if lte IE 9]><script src="./js/placeholdersmin.js"></script><![endif]-->
+ </body>
+</html>
